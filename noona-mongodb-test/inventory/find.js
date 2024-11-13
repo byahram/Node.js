@@ -78,7 +78,7 @@ async function run() {
     .toArray();
   console.log("data8 --> ", data8);
 
-  //   [HW] 9. size 에 uom이 in 인 데이터 찾기
+  //   [HW] 9. size에 uom이 in 인 데이터 찾기
   const data9 = await inventory
     .find({
       "size.uom": "in",
